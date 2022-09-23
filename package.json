@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/polyfill": "^7.12.1",
     "@react-pdf/renderer": "^3.0.0",
     "buffer": "^6.0.3",
     "react": "^17.0.0",
