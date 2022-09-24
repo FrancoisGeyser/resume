@@ -1,7 +1,7 @@
 import React from 'react'
 import { PDFDownloadLink } from '@react-pdf/renderer'
-import { ResumeDocument } from './resume/Document'
 import { ResumeDownload } from './resume/DownLoad'
+import { Resume } from './resume/Resume'
 
 export function App() {
   return (
@@ -18,7 +18,7 @@ export function App() {
           </PDFDownloadLink>
         </button>
       </div>
-      <ResumeDocument />
+      <Resume />
     </>
   )
 }

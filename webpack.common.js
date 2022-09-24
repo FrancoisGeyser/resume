@@ -2,10 +2,8 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: './src/index',
-  devtool: 'inline-source-map',
-  devServer: {
-    static: './dist',
+  entry: {
+    app: './src/index',
   },
   plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })],
   output: {
@@ -39,8 +37,5 @@ module.exports = {
         type: 'asset/resource',
       },
     ],
-  },
-  optimization: {
-    runtimeChunk: 'single',
   },
 }
